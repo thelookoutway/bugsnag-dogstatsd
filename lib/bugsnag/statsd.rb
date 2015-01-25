@@ -29,8 +29,8 @@ module Bugsnag
       private
 
       def new_statsd
-        uri = URI.parse(ENV['STATSD_URL'] || "statsd://#{Statsd::DEFAULT_HOST}:#{Statsd::DEFAULT_PORT}")
-        Statsd.new(uri.host, uri.port)
+        uri = URI.parse(ENV['STATSD_URL'] || "statsd://#{::Statsd::DEFAULT_HOST}:#{::Statsd::DEFAULT_PORT}")
+        ::Statsd.new(uri.host, uri.port)
       end
     end
   end
