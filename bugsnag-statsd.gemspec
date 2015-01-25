@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Bugsnag::Statsd::VERSION
   spec.authors       = ["Tate Johnson"]
   spec.email         = ["tate@tatey.com"]
-  spec.summary       = %q{Bugsnag middleware that increments Statsd a counter for each exception.}
-  spec.description   = %q{Bugsnag middleware that increments Statsd a counter for each exception.}
+  spec.summary       = %q{Bugsnag middleware that increments a Datadog flavoured Statsd counter for each exception.}
+  spec.description   = %q{Bugsnag middleware that increments a Datadog flavoured Statsd counter for each exception.}
   spec.homepage      = "https://github.com/tatey/bugsnag-statsd"
   spec.license       = "MIT"
 

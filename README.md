@@ -1,6 +1,6 @@
 # Bugsnag::Statsd
 
-Bugsnag middleware that increments a Statsd counter for each exception.
+Bugsnag middleware that increments a Datadog flavoured Statsd counter for each exception.
 
 ## Installation
 
