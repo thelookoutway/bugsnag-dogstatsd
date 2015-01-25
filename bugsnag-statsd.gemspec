@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Bugsnag::Statsd::VERSION
   spec.authors       = ["Tate Johnson"]
   spec.email         = ["tate@tatey.com"]
-  spec.summary       = %q{Bugsnag middleware that increments statsd counter on exception.}
-  spec.description   = %q{Bugsnag middleware that increments statsd counter on exception.}
-  spec.homepage      = ""
+  spec.summary       = %q{Bugsnag middleware that increments Statsd a counter for each exception.}
+  spec.description   = %q{Bugsnag middleware that increments Statsd a counter for each exception.}
+  spec.homepage      = "https://github.com/tatey/bugsnag-statsd"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "dogstatsd-ruby", "~> 1.4.1"
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
 end
