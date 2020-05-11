@@ -1,5 +1,7 @@
 # Bugsnag::DogStatsd
 
+![Ruby](https://github.com/fivegoodfriends/bugsnag-dogstatsd/workflows/Ruby/badge.svg)
+
 Bugsnag middleware that increments a Datadog flavoured Statsd counter for each exception.
 
 ## Installation
