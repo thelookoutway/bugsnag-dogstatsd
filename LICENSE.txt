@@ -1,4 +1,4 @@
-Copyright (c) 2015 Tate Johnson
+Copyright (c) 2020 FiveGoodFriends Pty Ltd
 
 MIT License
 
